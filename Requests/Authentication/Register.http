@@ -1,4 +1,4 @@
-@host=http://localhost:5017
+@host=https://localhost:5001
 
 POST {{host}}/auth/register
 Content-Type: application/json
@@ -6,6 +6,6 @@ Content-Type: application/json
 {
     "firstname": "Victor",
     "lastname": "Canto",
-    "email": "iamvictorcanto@gmail.com",
+    "email": "iamvictorcanto2@gmail.com",
     "password": "Victor123"
 }
